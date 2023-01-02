@@ -18,6 +18,6 @@ from django.urls import path
 from estudiantes.views import saludar
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", saludar),
+    path("", saludar)
 ]
 
